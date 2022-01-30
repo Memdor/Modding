@@ -1,0 +1,1127 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../shared/xml/schema/fillTypes.xsd"> 
+    
+    <fillTypes>
+
+        <!-- FS22_Produktionen_Pack_Switty -->
+
+		<fillType name="APPLE" title="$l10n_fillType_apple" showOnPriceTable="true">
+            <physics massPerLiter="0.7" maxPhysicalSurfaceAngle="38" />
+            <economy pricePerLiter="0.33">
+                <factors>
+                    <factor period="1"  value="1.05" />
+                    <factor period="2"  value="1.04" />
+                    <factor period="3"  value="1.00" />
+                    <factor period="4"  value="0.99" />
+                    <factor period="5"  value="0.94" />
+                    <factor period="6"  value="0.99" />
+                    <factor period="7"  value="0.92" />
+                    <factor period="8"  value="0.90" />
+                    <factor period="9"  value="0.98" />
+                    <factor period="10" value="1.01" />
+                    <factor period="11" value="1.08" />
+                    <factor period="12" value="1.13" />
+                </factors>
+            </economy>
+            <image      hud     ="fillTypes/huds/hud_fill_apple.dds" />
+            <pallet     filename="fillTypes/pallets/appleBoxPallet/appleBoxPallet.xml" />
+        </fillType>
+		<fillType name="PLUM" title="$l10n_fillType_plum" showOnPriceTable="true">
+            <physics massPerLiter="0.7" maxPhysicalSurfaceAngle="38" />
+            <economy pricePerLiter="0.40">
+                <factors>
+                    <factor period="1"  value="1.05" />
+                    <factor period="2"  value="1.04" />
+                    <factor period="3"  value="1.00" />
+                    <factor period="4"  value="0.99" />
+                    <factor period="5"  value="0.94" />
+                    <factor period="6"  value="0.99" />
+                    <factor period="7"  value="0.92" />
+                    <factor period="8"  value="0.90" />
+                    <factor period="9"  value="0.98" />
+                    <factor period="10" value="1.01" />
+                    <factor period="11" value="1.08" />
+                    <factor period="12" value="1.13" />
+                </factors>
+            </economy>
+            <image      hud     ="fillTypes/huds/hud_fill_plum.dds" />
+            <pallet     filename="fillTypes/pallets/plumBoxPallet/plumBoxPallet.xml" />
+        </fillType>
+		<fillType name="PEAR" title="$l10n_fillType_pear" showOnPriceTable="true">
+            <physics massPerLiter="0.7" maxPhysicalSurfaceAngle="38" />
+            <economy pricePerLiter="0.39">
+                <factors>
+                    <factor period="1"  value="1.05" />
+                    <factor period="2"  value="1.04" />
+                    <factor period="3"  value="1.00" />
+                    <factor period="4"  value="0.99" />
+                    <factor period="5"  value="0.94" />
+                    <factor period="6"  value="0.99" />
+                    <factor period="7"  value="0.92" />
+                    <factor period="8"  value="0.90" />
+                    <factor period="9"  value="0.98" />
+                    <factor period="10" value="1.01" />
+                    <factor period="11" value="1.08" />
+                    <factor period="12" value="1.13" />
+                </factors>
+            </economy>
+            <image      hud     ="fillTypes/huds/hud_fill_pear.dds" />
+            <pallet     filename="fillTypes/pallets/pearBoxPallet/pearBoxPallet.xml" />
+        </fillType>
+		<fillType name="PEACH" title="$l10n_fillType_peach" showOnPriceTable="true">
+            <physics massPerLiter="0.7" maxPhysicalSurfaceAngle="38" />
+            <economy pricePerLiter="0.34">
+                <factors>
+                    <factor period="1"  value="1.05" />
+                    <factor period="2"  value="1.04" />
+                    <factor period="3"  value="1.00" />
+                    <factor period="4"  value="0.99" />
+                    <factor period="5"  value="0.94" />
+                    <factor period="6"  value="0.99" />
+                    <factor period="7"  value="0.92" />
+                    <factor period="8"  value="0.90" />
+                    <factor period="9"  value="0.98" />
+                    <factor period="10" value="1.01" />
+                    <factor period="11" value="1.08" />
+                    <factor period="12" value="1.13" />
+                </factors>
+            </economy>
+            <image      hud     ="fillTypes/huds/hud_fill_peach.dds" />
+            <pallet     filename="fillTypes/pallets/peachBoxPallet/peachBoxPallet.xml" />
+        </fillType>
+		<fillType name="ORANGE" title="$l10n_fillType_orange" showOnPriceTable="true">
+            <physics massPerLiter="0.7" maxPhysicalSurfaceAngle="38" />
+            <economy pricePerLiter="0.44">
+                <factors>
+                    <factor period="1"  value="1.05" />
+                    <factor period="2"  value="1.04" />
+                    <factor period="3"  value="1.00" />
+                    <factor period="4"  value="0.99" />
+                    <factor period="5"  value="0.94" />
+                    <factor period="6"  value="0.99" />
+                    <factor period="7"  value="0.92" />
+                    <factor period="8"  value="0.90" />
+                    <factor period="9"  value="0.98" />
+                    <factor period="10" value="1.01" />
+                    <factor period="11" value="1.08" />
+                    <factor period="12" value="1.13" />
+                </factors>
+            </economy>
+            <image      hud     ="fillTypes/huds/hud_fill_orange.dds" />
+            <pallet     filename="fillTypes/pallets/orangeBoxPallet/orangeBoxPallet.xml" />
+        </fillType>
+		<fillType name="COCO" title="$l10n_fillType_coco" showOnPriceTable="true">
+            <physics massPerLiter="0.7" maxPhysicalSurfaceAngle="38" />
+            <economy pricePerLiter="0.54">
+                <factors>
+                    <factor period="1"  value="1.05" />
+                    <factor period="2"  value="1.04" />
+                    <factor period="3"  value="1.00" />
+                    <factor period="4"  value="0.99" />
+                    <factor period="5"  value="0.94" />
+                    <factor period="6"  value="0.99" />
+                    <factor period="7"  value="0.92" />
+                    <factor period="8"  value="0.90" />
+                    <factor period="9"  value="0.98" />
+                    <factor period="10" value="1.01" />
+                    <factor period="11" value="1.08" />
+                    <factor period="12" value="1.13" />
+                </factors>
+            </economy>
+            <image      hud     ="fillTypes/huds/hud_fill_coco.dds" />
+            <pallet     filename="fillTypes/pallets/cocoBoxPallet/cocoBoxPallet.xml" />
+        </fillType>
+		<fillType name="CHERRY" title="$l10n_fillType_cherry" showOnPriceTable="true">
+            <physics massPerLiter="0.7" maxPhysicalSurfaceAngle="38" />
+            <economy pricePerLiter="0.33">
+                <factors>
+                    <factor period="1"  value="1.05" />
+                    <factor period="2"  value="1.04" />
+                    <factor period="3"  value="1.00" />
+                    <factor period="4"  value="0.99" />
+                    <factor period="5"  value="0.94" />
+                    <factor period="6"  value="0.99" />
+                    <factor period="7"  value="0.92" />
+                    <factor period="8"  value="0.90" />
+                    <factor period="9"  value="0.98" />
+                    <factor period="10" value="1.01" />
+                    <factor period="11" value="1.08" />
+                    <factor period="12" value="1.13" />
+                </factors>
+            </economy>
+            <image      hud     ="fillTypes/huds/hud_fill_cherry.dds" />
+            <pallet     filename="fillTypes/pallets/cherryBoxPallet/cherryBoxPallet.xml" />
+        </fillType>
+		<fillType name="APRICOT" title="$l10n_fillType_apricot" showOnPriceTable="true">
+            <physics massPerLiter="0.7" maxPhysicalSurfaceAngle="38" />
+            <economy pricePerLiter="0.34">
+                <factors>
+                    <factor period="1"  value="1.05" />
+                    <factor period="2"  value="1.04" />
+                    <factor period="3"  value="1.00" />
+                    <factor period="4"  value="0.99" />
+                    <factor period="5"  value="0.94" />
+                    <factor period="6"  value="0.99" />
+                    <factor period="7"  value="0.92" />
+                    <factor period="8"  value="0.90" />
+                    <factor period="9"  value="0.98" />
+                    <factor period="10" value="1.01" />
+                    <factor period="11" value="1.08" />
+                    <factor period="12" value="1.13" />
+                </factors>
+            </economy>
+            <image      hud     ="fillTypes/huds/hud_fill_apricot.dds" />
+            <pallet     filename="fillTypes/pallets/apricotBoxPallet/apricotBoxPallet.xml" />
+        </fillType>
+		<fillType name="BANANA" title="$l10n_fillType_banana" showOnPriceTable="true">
+            <physics massPerLiter="0.7" maxPhysicalSurfaceAngle="38" />
+            <economy pricePerLiter="0.38">
+                <factors>
+                    <factor period="1"  value="1.05" />
+                    <factor period="2"  value="1.04" />
+                    <factor period="3"  value="1.00" />
+                    <factor period="4"  value="0.99" />
+                    <factor period="5"  value="0.94" />
+                    <factor period="6"  value="0.99" />
+                    <factor period="7"  value="0.92" />
+                    <factor period="8"  value="0.90" />
+                    <factor period="9"  value="0.98" />
+                    <factor period="10" value="1.01" />
+                    <factor period="11" value="1.08" />
+                    <factor period="12" value="1.13" />
+                </factors>
+            </economy>
+            <image      hud     ="fillTypes/huds/hud_fill_banana.dds" />
+            <pallet     filename="fillTypes/pallets/bananaBoxPallet/bananaBoxPallet.xml" />
+        </fillType>
+		<fillType name="HEMP" title="$l10n_fillType_hemp" showOnPriceTable="true">
+            <physics massPerLiter="0.7" maxPhysicalSurfaceAngle="38" />
+            <economy pricePerLiter="0.64">
+                <factors>
+                    <factor period="1"  value="1.05" />
+                    <factor period="2"  value="1.04" />
+                    <factor period="3"  value="1.00" />
+                    <factor period="4"  value="0.99" />
+                    <factor period="5"  value="0.94" />
+                    <factor period="6"  value="0.99" />
+                    <factor period="7"  value="0.92" />
+                    <factor period="8"  value="0.90" />
+                    <factor period="9"  value="0.98" />
+                    <factor period="10" value="1.01" />
+                    <factor period="11" value="1.08" />
+                    <factor period="12" value="1.13" />
+                </factors>
+            </economy>
+            <image      hud     ="fillTypes/huds/hud_fill_hemp.dds" />
+            <pallet     filename="fillTypes/pallets/hempBoxPallet/hempBoxPallet.xml" />
+        </fillType>
+		<fillType name="BEAN" title="$l10n_fillType_bean" showOnPriceTable="true">
+            <physics massPerLiter="0.7" maxPhysicalSurfaceAngle="38" />
+            <economy pricePerLiter="0.54">
+                <factors>
+                    <factor period="1"  value="1.05" />
+                    <factor period="2"  value="1.04" />
+                    <factor period="3"  value="1.00" />
+                    <factor period="4"  value="0.99" />
+                    <factor period="5"  value="0.94" />
+                    <factor period="6"  value="0.99" />
+                    <factor period="7"  value="0.92" />
+                    <factor period="8"  value="0.90" />
+                    <factor period="9"  value="0.98" />
+                    <factor period="10" value="1.01" />
+                    <factor period="11" value="1.08" />
+                    <factor period="12" value="1.13" />
+                </factors>
+            </economy>
+            <image      hud     ="fillTypes/huds/hud_fill_bean.dds" />
+            <pallet     filename="fillTypes/pallets/beanBoxPallet/beanBoxPallet.xml" />
+        </fillType>
+		<fillType name="CAULIFLOWER" title="$l10n_fillType_cauliFlower" showOnPriceTable="true">
+            <physics massPerLiter="0.7" maxPhysicalSurfaceAngle="38" />
+            <economy pricePerLiter="0.35">
+                <factors>
+                    <factor period="1"  value="1.05" />
+                    <factor period="2"  value="1.04" />
+                    <factor period="3"  value="1.00" />
+                    <factor period="4"  value="0.99" />
+                    <factor period="5"  value="0.94" />
+                    <factor period="6"  value="0.99" />
+                    <factor period="7"  value="0.92" />
+                    <factor period="8"  value="0.90" />
+                    <factor period="9"  value="0.98" />
+                    <factor period="10" value="1.01" />
+                    <factor period="11" value="1.08" />
+                    <factor period="12" value="1.13" />
+                </factors>
+            </economy>
+            <image      hud     ="fillTypes/huds/hud_fill_cauliFlower.dds" />
+            <pallet     filename="fillTypes/pallets/cauliFlowerBoxPallet/cauliFlowerBoxPallet.xml" />
+        </fillType>
+		<fillType name="CINNAMON" title="$l10n_fillType_cinnamon" showOnPriceTable="true">
+            <physics massPerLiter="0.7" maxPhysicalSurfaceAngle="38" />
+            <economy pricePerLiter="0.71">
+                <factors>
+                    <factor period="1"  value="1.05" />
+                    <factor period="2"  value="1.04" />
+                    <factor period="3"  value="1.00" />
+                    <factor period="4"  value="0.99" />
+                    <factor period="5"  value="0.94" />
+                    <factor period="6"  value="0.99" />
+                    <factor period="7"  value="0.92" />
+                    <factor period="8"  value="0.90" />
+                    <factor period="9"  value="0.98" />
+                    <factor period="10" value="1.01" />
+                    <factor period="11" value="1.08" />
+                    <factor period="12" value="1.13" />
+                </factors>
+            </economy>
+            <image      hud     ="fillTypes/huds/hud_fill_cinnamon.dds" />
+            <pallet     filename="fillTypes/pallets/cinnamonBoxPallet/cinnamonBoxPallet.xml" />
+        </fillType>
+		<fillType name="COCOA" title="$l10n_fillType_cocoa" showOnPriceTable="true">
+            <physics massPerLiter="0.7" maxPhysicalSurfaceAngle="38" />
+            <economy pricePerLiter="0.68">
+                <factors>
+                    <factor period="1"  value="1.05" />
+                    <factor period="2"  value="1.04" />
+                    <factor period="3"  value="1.00" />
+                    <factor period="4"  value="0.99" />
+                    <factor period="5"  value="0.94" />
+                    <factor period="6"  value="0.99" />
+                    <factor period="7"  value="0.92" />
+                    <factor period="8"  value="0.90" />
+                    <factor period="9"  value="0.98" />
+                    <factor period="10" value="1.01" />
+                    <factor period="11" value="1.08" />
+                    <factor period="12" value="1.13" />
+                </factors>
+            </economy>
+            <image      hud     ="fillTypes/huds/hud_fill_cocoa.dds" />
+            <pallet     filename="fillTypes/pallets/cocoaBoxPallet/cocoaBoxPallet.xml" />
+        </fillType>
+		<fillType name="CRANBERRY" title="$l10n_fillType_cranBerry" showOnPriceTable="true">
+            <physics massPerLiter="0.7" maxPhysicalSurfaceAngle="38" />
+            <economy pricePerLiter="0.29">
+                <factors>
+                    <factor period="1"  value="1.05" />
+                    <factor period="2"  value="1.04" />
+                    <factor period="3"  value="1.00" />
+                    <factor period="4"  value="0.99" />
+                    <factor period="5"  value="0.94" />
+                    <factor period="6"  value="0.99" />
+                    <factor period="7"  value="0.92" />
+                    <factor period="8"  value="0.90" />
+                    <factor period="9"  value="0.98" />
+                    <factor period="10" value="1.01" />
+                    <factor period="11" value="1.08" />
+                    <factor period="12" value="1.13" />
+                </factors>
+            </economy>
+            <image      hud     ="fillTypes/huds/hud_fill_cranBerry.dds" />
+            <pallet     filename="fillTypes/pallets/cranBerryBoxPallet/cranBerryBoxPallet.xml" />
+        </fillType>
+		<fillType name="CUCUMBER" title="$l10n_fillType_cucumber" showOnPriceTable="true">
+            <physics massPerLiter="0.7" maxPhysicalSurfaceAngle="38" />
+            <economy pricePerLiter="0.30">
+                <factors>
+                    <factor period="1"  value="1.05" />
+                    <factor period="2"  value="1.04" />
+                    <factor period="3"  value="1.00" />
+                    <factor period="4"  value="0.99" />
+                    <factor period="5"  value="0.94" />
+                    <factor period="6"  value="0.99" />
+                    <factor period="7"  value="0.92" />
+                    <factor period="8"  value="0.90" />
+                    <factor period="9"  value="0.98" />
+                    <factor period="10" value="1.01" />
+                    <factor period="11" value="1.08" />
+                    <factor period="12" value="1.13" />
+                </factors>
+            </economy>
+            <image      hud     ="fillTypes/huds/hud_fill_cucumber.dds" />
+            <pallet     filename="fillTypes/pallets/cucumberBoxPallet/cucumberBoxPallet.xml" />
+        </fillType>
+		<fillType name="GARLIC" title="$l10n_fillType_garlic" showOnPriceTable="true">
+            <physics massPerLiter="0.7" maxPhysicalSurfaceAngle="38" />
+            <economy pricePerLiter="0.40">
+                <factors>
+                    <factor period="1"  value="1.05" />
+                    <factor period="2"  value="1.04" />
+                    <factor period="3"  value="1.00" />
+                    <factor period="4"  value="0.99" />
+                    <factor period="5"  value="0.94" />
+                    <factor period="6"  value="0.99" />
+                    <factor period="7"  value="0.92" />
+                    <factor period="8"  value="0.90" />
+                    <factor period="9"  value="0.98" />
+                    <factor period="10" value="1.01" />
+                    <factor period="11" value="1.08" />
+                    <factor period="12" value="1.13" />
+                </factors>
+            </economy>
+            <image      hud     ="fillTypes/huds/hud_fill_garlic.dds" />
+            <pallet     filename="fillTypes/pallets/garlicBoxPallet/garlicBoxPallet.xml" />
+        </fillType>
+		<fillType name="HOPS" title="$l10n_fillType_hops" showOnPriceTable="true">
+            <physics massPerLiter="0.7" maxPhysicalSurfaceAngle="38" />
+            <economy pricePerLiter="0.50">
+                <factors>
+                    <factor period="1"  value="1.05" />
+                    <factor period="2"  value="1.04" />
+                    <factor period="3"  value="1.00" />
+                    <factor period="4"  value="0.99" />
+                    <factor period="5"  value="0.94" />
+                    <factor period="6"  value="0.99" />
+                    <factor period="7"  value="0.92" />
+                    <factor period="8"  value="0.90" />
+                    <factor period="9"  value="0.98" />
+                    <factor period="10" value="1.01" />
+                    <factor period="11" value="1.08" />
+                    <factor period="12" value="1.13" />
+                </factors>
+            </economy>
+            <image      hud     ="fillTypes/huds/hud_fill_hops.dds" />
+            <pallet     filename="fillTypes/pallets/hopsBoxPallet/hopsBoxPallet.xml" />
+        </fillType>
+		<fillType name="KIWIFRUIT" title="$l10n_fillType_kiwiFruit" showOnPriceTable="true">
+            <physics massPerLiter="0.7" maxPhysicalSurfaceAngle="38" />
+            <economy pricePerLiter="0.38">
+                <factors>
+                    <factor period="1"  value="1.05" />
+                    <factor period="2"  value="1.04" />
+                    <factor period="3"  value="1.00" />
+                    <factor period="4"  value="0.99" />
+                    <factor period="5"  value="0.94" />
+                    <factor period="6"  value="0.99" />
+                    <factor period="7"  value="0.92" />
+                    <factor period="8"  value="0.90" />
+                    <factor period="9"  value="0.98" />
+                    <factor period="10" value="1.01" />
+                    <factor period="11" value="1.08" />
+                    <factor period="12" value="1.13" />
+                </factors>
+            </economy>
+            <image      hud     ="fillTypes/huds/hud_fill_kiwiFruit.dds" />
+            <pallet     filename="fillTypes/pallets/kiwiFruitBoxPallet/kiwiFruitBoxPallet.xml" />
+        </fillType>
+		<fillType name="MUSHROOMS" title="$l10n_fillType_mushrooms" showOnPriceTable="true">
+            <physics massPerLiter="0.7" maxPhysicalSurfaceAngle="38" />
+            <economy pricePerLiter="0.33">
+                <factors>
+                    <factor period="1"  value="1.05" />
+                    <factor period="2"  value="1.04" />
+                    <factor period="3"  value="1.00" />
+                    <factor period="4"  value="0.99" />
+                    <factor period="5"  value="0.94" />
+                    <factor period="6"  value="0.99" />
+                    <factor period="7"  value="0.92" />
+                    <factor period="8"  value="0.90" />
+                    <factor period="9"  value="0.98" />
+                    <factor period="10" value="1.01" />
+                    <factor period="11" value="1.08" />
+                    <factor period="12" value="1.13" />
+                </factors>
+            </economy>
+            <image      hud     ="fillTypes/huds/hud_fill_mushrooms.dds" />
+            <pallet     filename="fillTypes/pallets/mushroomsBoxPallet/mushroomsBoxPallet.xml" />
+        </fillType>
+		<!-- <fillType name="ONION" title="$l10n_fillType_onion" showOnPriceTable="true">
+            <physics massPerLiter="0.7" maxPhysicalSurfaceAngle="38" />
+            <economy pricePerLiter="0.42">
+                <factors>
+                    <factor period="1"  value="1.05" />
+                    <factor period="2"  value="1.04" />
+                    <factor period="3"  value="1.00" />
+                    <factor period="4"  value="0.99" />
+                    <factor period="5"  value="0.94" />
+                    <factor period="6"  value="0.99" />
+                    <factor period="7"  value="0.92" />
+                    <factor period="8"  value="0.90" />
+                    <factor period="9"  value="0.98" />
+                    <factor period="10" value="1.01" />
+                    <factor period="11" value="1.08" />
+                    <factor period="12" value="1.13" />
+                </factors>
+            </economy>
+            <image      hud     ="fillTypes/huds/hud_fill_onion.dds" />
+            <pallet     filename="fillTypes/pallets/onionBoxPallet/onionBoxPallet.xml" />
+        </fillType> -->
+		<fillType name="PAPRIKA" title="$l10n_fillType_paprika" showOnPriceTable="true">
+            <physics massPerLiter="0.7" maxPhysicalSurfaceAngle="38" />
+            <economy pricePerLiter="0.35">
+                <factors>
+                    <factor period="1"  value="1.05" />
+                    <factor period="2"  value="1.04" />
+                    <factor period="3"  value="1.00" />
+                    <factor period="4"  value="0.99" />
+                    <factor period="5"  value="0.94" />
+                    <factor period="6"  value="0.99" />
+                    <factor period="7"  value="0.92" />
+                    <factor period="8"  value="0.90" />
+                    <factor period="9"  value="0.98" />
+                    <factor period="10" value="1.01" />
+                    <factor period="11" value="1.08" />
+                    <factor period="12" value="1.13" />
+                </factors>
+            </economy>
+            <image      hud     ="fillTypes/huds/hud_fill_paprika.dds" />
+            <pallet     filename="fillTypes/pallets/paprikaBoxPallet/paprikaBoxPallet.xml" />
+        </fillType>
+		<fillType name="PARSLEY" title="$l10n_fillType_parsley" showOnPriceTable="true">
+            <physics massPerLiter="0.7" maxPhysicalSurfaceAngle="38" />
+            <economy pricePerLiter="0.22">
+                <factors>
+                    <factor period="1"  value="1.05" />
+                    <factor period="2"  value="1.04" />
+                    <factor period="3"  value="1.00" />
+                    <factor period="4"  value="0.99" />
+                    <factor period="5"  value="0.94" />
+                    <factor period="6"  value="0.99" />
+                    <factor period="7"  value="0.92" />
+                    <factor period="8"  value="0.90" />
+                    <factor period="9"  value="0.98" />
+                    <factor period="10" value="1.01" />
+                    <factor period="11" value="1.08" />
+                    <factor period="12" value="1.13" />
+                </factors>
+            </economy>
+            <image      hud     ="fillTypes/huds/hud_fill_parsley.dds" />
+            <pallet     filename="fillTypes/pallets/parsleyBoxPallet/parsleyBoxPallet.xml" />
+        </fillType>
+		<fillType name="PEANUT" title="$l10n_fillType_peanut" showOnPriceTable="true">
+            <physics massPerLiter="0.7" maxPhysicalSurfaceAngle="38" />
+            <economy pricePerLiter="0.34">
+                <factors>
+                    <factor period="1"  value="1.05" />
+                    <factor period="2"  value="1.04" />
+                    <factor period="3"  value="1.00" />
+                    <factor period="4"  value="0.99" />
+                    <factor period="5"  value="0.94" />
+                    <factor period="6"  value="0.99" />
+                    <factor period="7"  value="0.92" />
+                    <factor period="8"  value="0.90" />
+                    <factor period="9"  value="0.98" />
+                    <factor period="10" value="1.01" />
+                    <factor period="11" value="1.08" />
+                    <factor period="12" value="1.13" />
+                </factors>
+            </economy>
+            <image      hud     ="fillTypes/huds/hud_fill_peanut.dds" />
+            <pallet     filename="fillTypes/pallets/peanutBoxPallet/peanutBoxPallet.xml" />
+        </fillType>
+		<fillType name="PEPPERONI" title="$l10n_fillType_pepperoni" showOnPriceTable="true">
+            <physics massPerLiter="0.7" maxPhysicalSurfaceAngle="38" />
+            <economy pricePerLiter="0.51">
+                <factors>
+                    <factor period="1"  value="1.05" />
+                    <factor period="2"  value="1.04" />
+                    <factor period="3"  value="1.00" />
+                    <factor period="4"  value="0.99" />
+                    <factor period="5"  value="0.94" />
+                    <factor period="6"  value="0.99" />
+                    <factor period="7"  value="0.92" />
+                    <factor period="8"  value="0.90" />
+                    <factor period="9"  value="0.98" />
+                    <factor period="10" value="1.01" />
+                    <factor period="11" value="1.08" />
+                    <factor period="12" value="1.13" />
+                </factors>
+            </economy>
+            <image      hud     ="fillTypes/huds/hud_fill_pepperoni.dds" />
+            <pallet     filename="fillTypes/pallets/pepperoniBoxPallet/pepperoniBoxPallet.xml" />
+        </fillType>
+		<fillType name="PUMPKIN" title="$l10n_fillType_pumpkin" showOnPriceTable="true">
+            <physics massPerLiter="0.7" maxPhysicalSurfaceAngle="38" />
+            <economy pricePerLiter="0.47">
+                <factors>
+                    <factor period="1"  value="1.05" />
+                    <factor period="2"  value="1.04" />
+                    <factor period="3"  value="1.00" />
+                    <factor period="4"  value="0.99" />
+                    <factor period="5"  value="0.94" />
+                    <factor period="6"  value="0.99" />
+                    <factor period="7"  value="0.92" />
+                    <factor period="8"  value="0.90" />
+                    <factor period="9"  value="0.98" />
+                    <factor period="10" value="1.01" />
+                    <factor period="11" value="1.08" />
+                    <factor period="12" value="1.13" />
+                </factors>
+            </economy>
+            <image      hud     ="fillTypes/huds/hud_fill_pumpkin.dds" />
+            <pallet     filename="fillTypes/pallets/pumpkinBoxPallet/pumpkinBoxPallet.xml" />
+        </fillType>
+		<fillType name="RASPBERRY" title="$l10n_fillType_raspBerry" showOnPriceTable="true">
+            <physics massPerLiter="0.7" maxPhysicalSurfaceAngle="38" />
+            <economy pricePerLiter="0.28">
+                <factors>
+                    <factor period="1"  value="1.05" />
+                    <factor period="2"  value="1.04" />
+                    <factor period="3"  value="1.00" />
+                    <factor period="4"  value="0.99" />
+                    <factor period="5"  value="0.94" />
+                    <factor period="6"  value="0.99" />
+                    <factor period="7"  value="0.92" />
+                    <factor period="8"  value="0.90" />
+                    <factor period="9"  value="0.98" />
+                    <factor period="10" value="1.01" />
+                    <factor period="11" value="1.08" />
+                    <factor period="12" value="1.13" />
+                </factors>
+            </economy>
+            <image      hud     ="fillTypes/huds/hud_fill_raspBerry.dds" />
+            <pallet     filename="fillTypes/pallets/raspBerryBoxPallet/raspBerryBoxPallet.xml" />
+        </fillType>
+		<fillType name="WATERMELON" title="$l10n_fillType_waterMelon" showOnPriceTable="true">
+            <physics massPerLiter="0.7" maxPhysicalSurfaceAngle="38" />
+            <economy pricePerLiter="0.22">
+                <factors>
+                    <factor period="1"  value="1.05" />
+                    <factor period="2"  value="1.04" />
+                    <factor period="3"  value="1.00" />
+                    <factor period="4"  value="0.99" />
+                    <factor period="5"  value="0.94" />
+                    <factor period="6"  value="0.99" />
+                    <factor period="7"  value="0.92" />
+                    <factor period="8"  value="0.90" />
+                    <factor period="9"  value="0.98" />
+                    <factor period="10" value="1.01" />
+                    <factor period="11" value="1.08" />
+                    <factor period="12" value="1.13" />
+                </factors>
+            </economy>
+            <image      hud     ="fillTypes/huds/hud_fill_waterMelon.dds" />
+            <pallet     filename="fillTypes/pallets/waterMelonBoxPallet/waterMelonBoxPallet.xml" />
+        </fillType>
+		<fillType name="SOY_OIL" title="$l10n_fillType_soyOil" showOnPriceTable="true">
+            <physics massPerLiter="0.9" maxPhysicalSurfaceAngle="38" />
+            <economy pricePerLiter="2.44">
+                <factors>
+                    <factor period="1"  value="0.99" />
+                    <factor period="2"  value="1.05" />
+                    <factor period="3"  value="1.08" />
+                    <factor period="4"  value="1.20" />
+                    <factor period="5"  value="1.10" />
+                    <factor period="6"  value="1.03" />
+                    <factor period="7"  value="0.93" />
+                    <factor period="8"  value="0.87" />
+                    <factor period="9"  value="0.75" />
+                    <factor period="10" value="0.84" />
+                    <factor period="11" value="0.88" />
+                    <factor period="12" value="0.95" />
+                </factors>
+            </economy>
+            <image      hud     ="fillTypes/huds/hud_fill_soybean.dds" />
+            <pallet     filename="fillTypes/pallets/soyOilPallet/soyOilPallet.xml" />
+        </fillType>
+
+        <!-- FS22_DBProductionPack-->
+
+        <!-- ############################ 	-->
+        <!-- 		Kartoffelfabrik 		-->
+        <!-- ############################ 	-->
+		<fillType name="POCHIPS" title="$l10n_fillType_POCHIPS" showOnPriceTable="true">
+			<physics massPerLiter="0.0146" maxPhysicalSurfaceAngle="38" />
+			<image hud     ="fillTypes/products/potatochips/hud_fill_pochip.png" />
+			<pallet filename="fillTypes/products/potatochips/potatochipsBoxPallet.xml" />
+			<economy pricePerLiter="0.32">
+				<factors>
+					<factor period="1"  value="1.00" />
+					<factor period="2"  value="1.00" />
+					<factor period="3"  value="1.00" />
+					<factor period="4"  value="1.00" />
+					<factor period="5"  value="1.00" />
+					<factor period="6"  value="1.00" />
+					<factor period="7"  value="1.00" />
+					<factor period="8"  value="1.00" />
+					<factor period="9"  value="1.00" />
+					<factor period="10" value="1.00" />
+					<factor period="11" value="1.00" />
+					<factor period="12" value="1.00" />
+				</factors>
+			</economy>
+		</fillType>
+		<fillType name="KAPUF" title="$l10n_fillType_KAPUF" showOnPriceTable="true">
+			<physics massPerLiter="0.045" maxPhysicalSurfaceAngle="38" />
+			<image hud     ="fillTypes/products/potatopancakes/hud_fill_potatopancakes.png" />
+			<pallet filename="fillTypes/products/potatopancakes/potatopancakesBoxPallet.xml" />
+			<economy pricePerLiter="0.52">
+				<factors>
+					<factor period="1"  value="1.00" />
+					<factor period="2"  value="1.00" />
+					<factor period="3"  value="1.00" />
+					<factor period="4"  value="1.00" />
+					<factor period="5"  value="1.00" />
+					<factor period="6"  value="1.00" />
+					<factor period="7"  value="1.00" />
+					<factor period="8"  value="1.00" />
+					<factor period="9"  value="1.00" />
+					<factor period="10" value="1.00" />
+					<factor period="11" value="1.00" />
+					<factor period="12" value="1.00" />
+				</factors>
+			</economy>
+		</fillType>
+		<fillType name="POMES" title="$l10n_fillType_POMES" showOnPriceTable="true">
+			<physics massPerLiter="0.045" maxPhysicalSurfaceAngle="38" />
+			<image hud     ="fillTypes/products/fries/hud_fill_fries.png" />
+			<pallet filename="fillTypes/products/fries/friesBoxPallet.xml" />
+			<economy pricePerLiter="0.52">
+				<factors>
+					<factor period="1"  value="1.00" />
+					<factor period="2"  value="1.00" />
+					<factor period="3"  value="1.00" />
+					<factor period="4"  value="1.00" />
+					<factor period="5"  value="1.00" />
+					<factor period="6"  value="1.00" />
+					<factor period="7"  value="1.00" />
+					<factor period="8"  value="1.00" />
+					<factor period="9"  value="1.00" />
+					<factor period="10" value="1.00" />
+					<factor period="11" value="1.00" />
+					<factor period="12" value="1.00" />
+				</factors>
+			</economy>
+		</fillType>
+		<fillType name="KROKET" title="$l10n_fillType_KROKET" showOnPriceTable="true">
+			<physics massPerLiter="0.045" maxPhysicalSurfaceAngle="38" />
+			<image hud     ="fillTypes/products/croquettes/hud_fill_croquettes.png" />
+			<pallet filename="fillTypes/products/croquettes/croquettesBoxPallet.xml" />
+			<economy pricePerLiter="0.52">
+				<factors>
+					<factor period="1"  value="1.00" />
+					<factor period="2"  value="1.00" />
+					<factor period="3"  value="1.00" />
+					<factor period="4"  value="1.00" />
+					<factor period="5"  value="1.00" />
+					<factor period="6"  value="1.00" />
+					<factor period="7"  value="1.00" />
+					<factor period="8"  value="1.00" />
+					<factor period="9"  value="1.00" />
+					<factor period="10" value="1.00" />
+					<factor period="11" value="1.00" />
+					<factor period="12" value="1.00" />
+				</factors>
+			</economy>
+		</fillType>
+		<fillType name="KATOSA" title="$l10n_fillType_KATOSA" showOnPriceTable="true">
+			<physics massPerLiter="0.065" maxPhysicalSurfaceAngle="38" />
+			<image hud     ="fillTypes/products/potatosalat/hud_fill_potatosalat.png" />
+			<pallet filename="fillTypes/products/potatosalat/potatosalatBoxPallet.xml" />
+			<economy pricePerLiter="0.52">
+				<factors>
+					<factor period="1"  value="1.00" />
+					<factor period="2"  value="1.00" />
+					<factor period="3"  value="1.00" />
+					<factor period="4"  value="1.00" />
+					<factor period="5"  value="1.00" />
+					<factor period="6"  value="1.00" />
+					<factor period="7"  value="1.00" />
+					<factor period="8"  value="1.00" />
+					<factor period="9"  value="1.00" />
+					<factor period="10" value="1.00" />
+					<factor period="11" value="1.00" />
+					<factor period="12" value="1.00" />
+				</factors>
+			</economy>
+		</fillType>
+
+        <!-- ############################ 	-->
+        <!-- 		Neue Feld Früchte		-->
+        <!-- ############################ 	-->
+		<fillType name="ONION" title="$l10n_fillType_ONION" showOnPriceTable="true" unitShort="$l10n_unit_literShort">
+			<physics massPerLiter="0.75" maxPhysicalSurfaceAngle="34" />
+			<economy pricePerLiter="0.172">
+				<factors>
+					<factor period="1"  value="1.12" />
+					<factor period="2"  value="1.04" />
+					<factor period="3"  value="0.93" />
+					<factor period="4"  value="0.85" />
+					<factor period="5"  value="0.79" />
+					<factor period="6"  value="0.79" />
+					<factor period="7"  value="0.86" />
+					<factor period="8"  value="0.96" />
+					<factor period="9"  value="1.08" />
+					<factor period="10" value="1.16" />
+					<factor period="11" value="1.22" />
+					<factor period="12" value="1.21" />
+				</factors>
+			</economy>
+			<image      hud     ="fillTypes/products/onion/hud_fill_onion.png" />
+			<pallet     filename="fillTypes/products/onion/onionBoxPallet.xml" />
+		</fillType>
+
+        <!-- FS22_Fish_Factory -->
+
+        <!-- ############################ 	-->
+        <!-- 		Fishfabrik 		-->
+        <!-- ############################ 	-->
+		<fillType name="FISH" title="$l10n_fillType_FISH" showOnPriceTable="true">
+			<physics massPerLiter="0.0146" maxPhysicalSurfaceAngle="38" />
+			<image hud     ="fillTypes/products/fish/hud_fill_fish.png" />
+			<pallet filename="fillTypes/products/fish/fishBoxPallet.xml" />
+			<economy pricePerLiter="0.32">
+				<factors>
+					<factor period="1"  value="1.00" />
+					<factor period="2"  value="1.00" />
+					<factor period="3"  value="1.00" />
+					<factor period="4"  value="1.00" />
+					<factor period="5"  value="1.00" />
+					<factor period="6"  value="1.00" />
+					<factor period="7"  value="1.00" />
+					<factor period="8"  value="1.00" />
+					<factor period="9"  value="1.00" />
+					<factor period="10" value="1.00" />
+					<factor period="11" value="1.00" />
+					<factor period="12" value="1.00" />
+				</factors>
+			</economy>
+		</fillType>
+
+        <!-- FS22_Mcain_Chips -->
+
+        <!-- ############################ 	-->
+        <!-- 		Mcainfabrik 		-->
+        <!-- ############################ 	-->
+
+        <fillType name="CHIPS" title="$l10n_fillType_CHIPS" showOnPriceTable="true">
+			<physics massPerLiter="0.0146" maxPhysicalSurfaceAngle="38" />
+			<image hud     ="fillTypes/products/chips/hud_fill_chips.png" />
+			<pallet filename="fillTypes/products/chips/chipsBoxPallet.xml" />
+			<economy pricePerLiter="0.32">
+				<factors>
+					<factor period="1"  value="1.00" />
+					<factor period="2"  value="1.00" />
+					<factor period="3"  value="1.00" />
+					<factor period="4"  value="1.00" />
+					<factor period="5"  value="1.00" />
+					<factor period="6"  value="1.00" />
+					<factor period="7"  value="1.00" />
+					<factor period="8"  value="1.00" />
+					<factor period="9"  value="1.00" />
+					<factor period="10" value="1.00" />
+					<factor period="11" value="1.00" />
+					<factor period="12" value="1.00" />
+				</factors>
+			</economy>
+		</fillType>
+
+        <!-- FS22_WilkDev_Production_Brewery -->
+
+		<fillType name="WHEATBEER" title="$l10n_filltype_wheatbeer" showOnPriceTable="true">
+			<physics massPerLiter="1" maxPhysicalSurfaceAngle="38" />
+			<image hud     ="fillTypes/huds/hud_fill_wheatbeer.png" />
+			<pallet filename="fillTypes/objects/Pallet_WheatBeer/PalletWheatBeer.xml" />
+			<economy pricePerLiter="1.96">
+				<factors>
+					<factor period="1"  value="0.50" />
+					<factor period="2"  value="0.70" />
+					<factor period="3"  value="0.90" />
+					<factor period="4"  value="0.90" />
+					<factor period="5"  value="1.00" />
+					<factor period="6"  value="1.30" />
+					<factor period="7"  value="1.20" />
+					<factor period="8"  value="1.00" />
+					<factor period="9"  value="1.00" />
+					<factor period="10" value="0.80" />
+					<factor period="11" value="0.75" />
+					<factor period="12" value="0.60" />
+				</factors>
+			</economy>
+		</fillType>
+		
+		<fillType name="BARLEYBEER" title="$l10n_filltype_barleybeer" showOnPriceTable="true">
+			<physics massPerLiter="1" maxPhysicalSurfaceAngle="38" />
+			<image hud     ="fillTypes/huds/hud_fill_barleybeer.png" />
+			<pallet filename="fillTypes/objects/Pallet_BarleyBeer/PalletBarleyBeer.xml" />
+			<economy pricePerLiter="2.00">
+				<factors>
+					<factor period="1"  value="0.50" />
+					<factor period="2"  value="0.70" />
+					<factor period="3"  value="0.90" />
+					<factor period="4"  value="0.90" />
+					<factor period="5"  value="1.00" />
+					<factor period="6"  value="1.30" />
+					<factor period="7"  value="1.20" />
+					<factor period="8"  value="1.00" />
+					<factor period="9"  value="1.00" />
+					<factor period="10" value="0.80" />
+					<factor period="11" value="0.75" />
+					<factor period="12" value="0.60" />
+				</factors>
+			</economy>
+		</fillType>
+
+		<fillType name="HONEYBEER" title="$l10n_filltype_honeybeer" showOnPriceTable="true">
+			<physics massPerLiter="1" maxPhysicalSurfaceAngle="38" />
+			<image hud     ="fillTypes/huds/hud_fill_honeybeer.png" />
+			<pallet filename="fillTypes/objects/Pallet_HoneyBeer/PalletHoneyBeer.xml" />
+			<economy pricePerLiter="2.27">
+				<factors>
+					<factor period="1"  value="0.95" />
+					<factor period="2"  value="0.70" />
+					<factor period="3"  value="0.60" />
+					<factor period="4"  value="0.50" />
+					<factor period="5"  value="0.46" />
+					<factor period="6"  value="0.40" />
+					<factor period="7"  value="0.55" />
+					<factor period="8"  value="0.80" />
+					<factor period="9"  value="0.95" />
+					<factor period="10" value="1.30" />
+					<factor period="11" value="1.10" />
+					<factor period="12" value="1.00" />
+				</factors>
+			</economy>
+		</fillType>
+		
+		<fillType name="STRAWBERRYBEER" title="$l10n_filltype_strawberrybeer" showOnPriceTable="true">
+			<physics massPerLiter="1" maxPhysicalSurfaceAngle="38" />
+			<image hud     ="fillTypes/huds/hud_fill_strawberrybeer.png" />
+			<pallet filename="fillTypes/objects/Pallet_StrawberryBeer/PalletStrawberryBeer.xml" />
+			<economy pricePerLiter="2.12">
+				<factors>
+					<factor period="1"  value="0.40" />
+					<factor period="2"  value="0.50" />
+					<factor period="3"  value="0.60" />
+					<factor period="4"  value="0.80" />
+					<factor period="5"  value="0.96" />
+					<factor period="6"  value="1.00" />
+					<factor period="7"  value="1.10" />
+					<factor period="8"  value="1.25" />
+					<factor period="9"  value="1.00" />
+					<factor period="10" value="0.60" />
+					<factor period="11" value="0.55" />
+					<factor period="12" value="0.40" />
+				</factors>
+			</economy>
+		</fillType>
+
+        <!-- FS22_BrockCorn_Dryer_X -->
+
+        <materialholders>
+            <materialholder filename="fillTypes/materialholders/fillPlane_materialHolder.i3d" />
+            <materialholder filename="fillTypes/materialholders/effect_materialHolder.i3d" />
+            <materialholder filename="fillTypes/materialholders/particle_materialHolder.i3d" />
+        </materialholders>
+
+		<fillType name="CORNDRYER" title="$l10n_filltype_CORNDRYER" showOnPriceTable="true">
+			<physics massPerLiter="0.60" maxPhysicalSurfaceAngle="38" />
+			<image hud="fillTypes/materialholders/cornDryer_hud.dds" hudSmall="fillTypes/materialholders/cornDryer_hud_small.dds" />
+			<pallet     filename="$data/objects/pallets/fillablePallet/fillablePallet.xml" />
+            <textures   diffuse ="$data/fillPlanes/maize_diffuse.png"
+                        normal  ="$data/fillPlanes/maize_normal.png"
+                        specular="$data/fillPlanes/maize_specular.png"
+                        distance="$data/fillPlanes/distance/maizeDistance_diffuse.png" />
+			<economy pricePerLiter="0.503">
+				<factors>
+					<factor value="1.12" period="1"/>
+					<factor value="1.08" period="2"/>
+					<factor value="1.04" period="3"/>
+					<factor value="1.14" period="4"/>
+					<factor value="1.31" period="5"/>
+					<factor value="0.98" period="6"/>
+					<factor value="0.88" period="7"/>
+					<factor value="0.71" period="8"/>
+					<factor value="0.61" period="9"/>
+					<factor value="0.92" period="10"/>
+					<factor value="1.33" period="11"/>
+					<factor value="0.98" period="12"/>
+				</factors>
+			</economy>
+		</fillType>		
+
+        <!-- KartoffelverarbeitungsPack / FS22_Baeckerei / FS22_Muehle -->
+        <!-- FS22_Baeckerei -->
+
+		<fillType name="Kartoffelbrot" title="Kartoffelbrot" showOnPriceTable="true">
+         <physics massPerLiter="0.35" maxPhysicalSurfaceAngle="35" />
+            <economy pricePerLiter="1.8">
+                <factors>
+                    <factor period="1"  value="1.00" />
+                    <factor period="2"  value="1.07" />
+                    <factor period="3"  value="0.99" />
+                    <factor period="4"  value="0.94" />
+                    <factor period="5"  value="0.85" />
+                    <factor period="6"  value="0.81" />
+                    <factor period="7"  value="0.86" />
+                    <factor period="8"  value="0.99" />
+                    <factor period="9"  value="1.08" />
+                    <factor period="10" value="1.13" />
+                    <factor period="11" value="1.21" />
+                    <factor period="12" value="1.08" />
+                </factors>
+            </economy>
+            <image      hud     ="fillTypes/huds/hud_fill_Kartoffelbrot.dds" />
+            <pallet     filename="fillTypes/pallets/kartoffelbrot/kartoffelbrot.xml" />
+        </fillType>
+		<fillType name="Brownies" title="Brownies" showOnPriceTable="true">
+            <physics massPerLiter="0.8" maxPhysicalSurfaceAngle="38" />
+            <economy pricePerLiter="3.5">
+                <factors>
+                    <factor period="1"  value="1.06" />
+                    <factor period="2"  value="1.01" />
+                    <factor period="3"  value="0.96" />
+                    <factor period="4"  value="0.90" />
+                    <factor period="5"  value="0.95" />
+                    <factor period="6"  value="0.95" />
+                    <factor period="7"  value="1.03" />
+                    <factor period="8"  value="1.09" />
+                    <factor period="9"  value="0.98" />
+                    <factor period="10" value="0.96" />
+                    <factor period="11" value="1.08" />
+                    <factor period="12" value="1.07" />
+                </factors>
+            </economy>
+            <image      hud     ="fillTypes/huds/hud_fill_schoko.png" />
+            <pallet     filename="fillTypes/pallets/brownies/brownies.xml" />
+        </fillType>
+
+        <!-- FS22_Muehle -->
+
+		<fillType name="Kartoffelmehl" title="Kartoffelmehl" showOnPriceTable="true">
+            <physics massPerLiter="0.17" maxPhysicalSurfaceAngle="38" />
+            <economy pricePerLiter="0.7">
+                <factors>
+                    <factor period="1"  value="1.00" />
+                    <factor period="2"  value="1.07" />
+                    <factor period="3"  value="0.99" />
+                    <factor period="4"  value="0.94" />
+                    <factor period="5"  value="0.85" />
+                    <factor period="6"  value="0.81" />
+                    <factor period="7"  value="0.86" />
+                    <factor period="8"  value="0.99" />
+                    <factor period="9"  value="1.08" />
+                    <factor period="10" value="1.13" />
+                    <factor period="11" value="1.21" />
+                    <factor period="12" value="1.08" />
+                </factors>
+            </economy>
+            <image      hud     ="fillTypes/huds/hud_fill_Kartoffelmehl.png" />
+            <pallet     filename="fillTypes/pallets/Kartoffelmehl/kartoffelmehl.xml" />
+        </fillType>
+
+        <!-- FS22_farmProductionPackBeta -->
+
+        <fillType name="FRENCHFRIES" title="$l10n_fillType_frenchFries" showOnPriceTable="true">
+            <physics massPerLiter="0.17" maxPhysicalSurfaceAngle="38" />
+            <economy pricePerLiter="0.57">
+                <factors>
+                    <factor period="1"  value="1.00" />
+                    <factor period="2"  value="1.00" />
+                    <factor period="3"  value="1.00" />
+                    <factor period="4"  value="1.00" />
+                    <factor period="5"  value="1.00" />
+                    <factor period="6"  value="1.00" />
+                    <factor period="7"  value="1.00" />
+                    <factor period="8"  value="1.00" />
+                    <factor period="9"  value="1.00" />
+                    <factor period="10" value="1.00" />
+                    <factor period="11" value="1.00" />
+                    <factor period="12" value="1.00" />
+                </factors>
+            </economy>
+            <image      hud     ="fillTypes/pallets/FS22_farmProductionPackBeta/hud_fill_frenchFries.dds" />
+            <pallet     filename="fillTypes/pallets/FS22_farmProductionPackBeta/frenchFriesPallet.xml" />
+        </fillType>
+        <fillType name="NOODLES" title="$l10n_fillType_noodles" showOnPriceTable="true">
+            <physics massPerLiter="0.17" maxPhysicalSurfaceAngle="38" />
+            <economy pricePerLiter="1.00">
+                <factors>
+                    <factor period="1"  value="1.00" />
+                    <factor period="2"  value="1.00" />
+                    <factor period="3"  value="1.00" />
+                    <factor period="4"  value="1.00" />
+                    <factor period="5"  value="1.00" />
+                    <factor period="6"  value="1.00" />
+                    <factor period="7"  value="1.00" />
+                    <factor period="8"  value="1.00" />
+                    <factor period="9"  value="1.00" />
+                    <factor period="10" value="1.00" />
+                    <factor period="11" value="1.00" />
+                    <factor period="12" value="1.00" />
+                </factors>
+            </economy>
+            <image      hud     ="fillTypes/pallets/FS22_farmProductionPackBeta/hud_fill_noodles.dds" />
+            <pallet     filename="fillTypes/pallets/FS22_farmProductionPackBeta/noodlesPallet.xml" />
+        </fillType>
+
+        <!-- Ende -->
+    </fillTypes>
+	
+    <fillTypeCategories>
+        <!-- FS22_Produktionen_Pack_Switty -->
+        <fillTypeCategory name="PRODUCT">APPLE APRICOT PEAR CHERRY COCO ORANGE PEACH PLUM BANANA HEMP BEAN CAULIFLOWER CINNAMON COCOA CRANBERRY CUCUMBER GARLIC HOPS KIWIFRUIT MUSHROOMS ONION PAPRIKA PARSLEY PEANUT PEPPERONI PUMPKIN RASPBERRY WATERMELON SOY_OIL</fillTypeCategory>	
+		<fillTypeCategory name="TRAINWAGON" >APPLE APRICOT PEAR CHERRY COCO ORANGE PEACH PLUM BANANA HEMP BEAN CAULIFLOWER CINNAMON COCOA CRANBERRY CUCUMBER GARLIC HOPS KIWIFRUIT MUSHROOMS ONION PAPRIKA PARSLEY PEANUT PEPPERONI PUMPKIN RASPBERRY WATERMELON SOY_OIL</fillTypeCategory>
+        <!-- FS22_DBProductionPack-->
+		<fillTypeCategory name="DBPRODUCTS">POCHIPS KAPUF KATOSA KROKET POMES</fillTypeCategory>
+		<fillTypeCategory name="PRODUCT">POCHIPS KAPUF KATOSA KROKET POMES</fillTypeCategory>
+		<fillTypeCategory name="BULK" >ONION</fillTypeCategory>
+		<fillTypeCategory name="SHOVEL" >ONION</fillTypeCategory>
+		<fillTypeCategory name="TRAINWAGON" >ONION POCHIPS KAPUF KATOSA KROKET POMES</fillTypeCategory>
+        <!-- FS22_DBProductionPack-->
+		<fillTypeCategory name="DBPRODUCTS">FISH</fillTypeCategory>
+		<fillTypeCategory name="PRODUCT">FISH</fillTypeCategory>
+		<fillTypeCategory name="TRAINWAGON" >FISH</fillTypeCategory>
+        <!-- FS22_Mcain_Chips -->
+		<fillTypeCategory name="DBPRODUCTS">CHIPS</fillTypeCategory>
+		<fillTypeCategory name="PRODUCT">CHIPS</fillTypeCategory>
+		<fillTypeCategory name="TRAINWAGON" >CHIPS</fillTypeCategory>
+        <!-- FS22_WilkDev_Production_Brewery -->
+		<fillTypeCategory name="PRODUCT">WHEATBEER BARLEYBEER HONEYBEER STRAWBERRYBEER</fillTypeCategory>
+		<fillTypeCategory name="TRAINWAGON" >WHEATBEER BARLEYBEER HONEYBEER STRAWBERRYBEER</fillTypeCategory>
+        <!-- FS22_BrockCorn_Dryer_X -->
+		<fillTypeCategory name="BULK">CORNDRYER</fillTypeCategory>
+		<fillTypeCategory name="TRAINWAGON">CORNDRYER</fillTypeCategory>
+		<fillTypeCategory name="FARMSILO">CORNDRYER</fillTypeCategory>		
+        <!-- KartoffelverarbeitungsPack / FS22_Baeckerei / FS22_Muehle -->
+		<fillTypeCategory name="PRODUCT">Kartoffelbrot Brownies Kartoffelmehl</fillTypeCategory>
+		<fillTypeCategory name="TRAINWAGON">Brownies Kartoffelbrot Kartoffelmehl</fillTypeCategory>
+        <!-- FS22_farmProductionPackBeta -->
+		<fillTypeCategory name="PRODUCT">FRENCHFRIES NOODLES</fillTypeCategory>
+		<fillTypeCategory name="TRAINWAGON">FRENCHFRIES NOODLES</fillTypeCategory>
+
+   </fillTypeCategories>
+
+    <fillTypeSounds>
+         <!-- FS22_Produktionen_Pack_Switty -->
+       <fillTypeSound fillTypes="APPLE APRICOT PEAR CHERRY COCO ORANGE PEACH PLUM BANANA HEMP BEAN CAULIFLOWER CINNAMON COCOA CRANBERRY CUCUMBER GARLIC HOPS KIWIFRUIT MUSHROOMS ONION PAPRIKA PARSLEY PEANUT PEPPERONI PUMPKIN RASPBERRY WATERMELON SOY_OIL">
+            <sound template="grainLargeFill"/>
+        </fillTypeSound>
+        <!-- FS22_DBProductionPack-->
+        <fillTypeSound fillTypes="POCHIPS KAPUF KATOSA KROKET POMES ONION">
+            <sound template="grainLargeFill"/>
+        </fillTypeSound>
+        <!-- FS22_Fish_Factory-->
+        <fillTypeSound fillTypes="FISH">
+            <sound template="grainLargeFill"/>
+        </fillTypeSound>
+        <!-- FS22_Mcain_Chips -->
+        <fillTypeSound fillTypes="CHIPS">
+            <sound template="grainLargeFill"/>
+        </fillTypeSound>
+        <!-- FS22_WilkDev_Production_Brewery -->
+        <fillTypeSound fillTypes="WHEATBEER BARLEYBEER HONEYBEER STRAWBERRYBEER">
+            <sound template="grainLargeFill"/>
+        </fillTypeSound>
+        <!-- FS22_BrockCorn_Dryer_X -->
+        <fillTypeSound fillTypes="CORNDRYER">
+            <sound template="grainLargeFill"/>
+        </fillTypeSound>
+        <!-- KartoffelverarbeitungsPack / FS22_Baeckerei / FS22_Muehle -->
+        <fillTypeSound fillTypes="Brownies Kartoffelbrot Kartoffelmehl">
+            <sound template="grainLargeFill"/>
+        </fillTypeSound>
+        <!-- FS22_farmProductionPackBeta -->
+        <fillTypeSound fillTypes="FRENCHFRIES NOODLES">
+            <sound template="grainLargeFill"/>
+        </fillTypeSound>
+
+    </fillTypeSounds>
+
+	<additionalFiles>
+        <additionalFile filename="fillTypes/materialholders/fillPlane_materialHolder.i3d" />
+		<additionalFile filename="fillTypes/materialholders/effect_materialHolder.i3d" />
+		<additionalFile filename="fillTypes/materialholders/particle_materialHolder.i3d" />
+    </additionalFiles>
+   
+</map>
